@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "icons";
+	src: url('../fonts/icons.eot');
+	src: url('../fonts/icons.eot?#iefix') format('eot'),
+		url('../fonts/icons.woff2') format('woff2'),
+		url('../fonts/icons.woff') format('woff'),
+		url('../fonts/icons.ttf') format('truetype'),
+		url('../fonts/icons.svg#icons') format('svg');
+}
+
+.icon:before {
+	font-family: "icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-btn-mobile:before {
+	content: "\E001";
+}
+
+.icon-logo:before {
+	content: "\E002";
+}
+
+.icon-offer-icon1:before {
+	content: "\E003";
+}
+
+.icon-offer-icon2:before {
+	content: "\E004";
+}
+
+.icon-offer-icon3:before {
+	content: "\E005";
+}
+
+.icon-offer-icon4:before {
+	content: "\E006";
+}
+
+.icon-offer-icon5:before {
+	content: "\E007";
+}
+
+.icon-offer-icon6:before {
+	content: "\E008";
+}
+
+.icon-offer-icon7:before {
+	content: "\E009";
+}
+
+.icon-offer-icon8:before {
+	content: "\E00A";
+}
+
+.icon-slider-next:before {
+	content: "\E00B";
+}
+
+.icon-slider-prev:before {
+	content: "\E00C";
+}
+
+.icon-swipe:before {
+	content: "\E00D";
+}
