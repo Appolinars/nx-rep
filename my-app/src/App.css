@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.column {
+  border: 3px solid #000;
+  padding: 20px;
+  min-height: 400px;
+  width: 300px;
+  margin: 0 15px;
+}
+
+.btn {
+  display: block;
+  margin: 20px 0;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  background: #000;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+  border-bottom: 100px solid black;
+}
+
+.rhomb {
+  width: 70px;
+  height: 70px;
+  background-color: #000;
+
+  transform: rotate(45deg);
+}
+
+
